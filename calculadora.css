@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.background {
+    background-color: #2e294e;
+    height: 100vh;
+    color: #eadeda;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator{
+    position: absolute;
+    background-color: #d90368;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
