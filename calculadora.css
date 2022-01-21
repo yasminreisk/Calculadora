@@ -8,14 +8,49 @@
     height: 100vh;
     color: #eadeda;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 .calculator{
     position: absolute;
-    background-color: #d90368;
+    background-color: rgba(216, 3, 103, 0.8);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
     padding: 15px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(231, 114, 169);
+    border: none;
+    color: #eadeda;
+    margin: 2px;
+}
+
+button:hover {
+    background-color: #d90368;
+}
+
+.row{
+    height: 106px;
+}
+
+.col{
+    width: 106px;
+}
+
+#result{
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: white;
+    color: #2e294e;
+    text-align: right;
+    padding: 5px;
 }
